@@ -108,7 +108,6 @@ public class Main {
 
     public static void startRequest(String currency_convert, String currency_convert2, Double amount) {
         try {
-            System.out.println(API + "/" + currency_convert + "/" + currency_convert2 + ".json");
             URL url = new URL(API + "/" + currency_convert + "/" + currency_convert2 + ".json");
 
             coloredPrint("-------- API Data ----------", "r", true);
